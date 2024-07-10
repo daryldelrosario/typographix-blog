@@ -55,3 +55,48 @@ body {
   padding: 20px;
   border-radius: 5px;
 }
+
+.article h2 {
+  font-size: 1.8rem;
+  margin: 15px 0;
+}
+
+.article p {
+  font-size: 1rem;
+  color: rgb(67, 67, 67);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(211, 100%, 50%);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: hsl(211, 100%, 35%);
+}
+
+/* FOOTER STYLES */
+footer {
+  color: rgb(33, 33, 33);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.social-icons{
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: hsl(0, 0%, 13%);
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: hsl(0, 0%, 25%);
+}
