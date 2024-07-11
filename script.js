@@ -18,7 +18,7 @@ function checkScroll() {
 
   // Clamping the font-size between 1.5rem and 3rem 
   newSize = Math.max(1.5, newSize);
-  newSize = Math.min(2, newSize);
+  newSize = Math.min(2.2, newSize);
 
   logo.style.fontSize = newSize + "rem";
 }
