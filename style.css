@@ -136,3 +136,23 @@ footer {
 .social-icons a:hover {
   color: hsl(0, 0%, 25%);
 }
+
+/* MEDIA QUERIES ======================== */
+/* TABLET */
+@media screen and (max-width: 1025px) {
+  .nav-left h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .main {
+    width: 90%;
+  }
+
+  .featured-article h1 {
+    font-size: 2.2rem;
+  }
+
+  .article h2 {
+    font-size: 1.7rem;
+  }
+}
