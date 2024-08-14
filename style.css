@@ -77,6 +77,15 @@ nav {
   border-radius: 5px;
 }
 
+.skeleton-image {
+  height: 300px;
+}
+
+.skeleton-image, .skeleton-line {
+  background: linear-gradient(90deg, #e0e0e0, #f0f0f0, #e0e0e0);
+  background-size: 200% 100%;
+}
+
 .hidden {
   display: none;
 }
