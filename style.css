@@ -65,7 +65,9 @@ nav {
 }
 
 /* SKELETON STYLES */
-
+.hidden {
+  display: none;
+}
 
 /* FEATURED ARTICLE STYLES */
 .featured-article {
